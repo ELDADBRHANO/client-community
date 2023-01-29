@@ -1,0 +1,152 @@
+
+.form {
+    overflow: hidden;
+    align-self: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.cardStyle {
+    width: 340px;
+    height: 380px;
+    background-color: #fff;
+    overflow: hidden !important;
+    border-radius: 1px solid black;
+}
+
+.d-none {
+    display: none
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header span {
+    height: 30px;
+    width: 30px;
+    background-color: #6000ff;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: black;
+    position: relative
+}
+
+.header span::after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: -10px;
+    background-color: #6000ff;
+    transform: rotate(45deg)
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    gap: 10px
+}
+
+.footer button {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #6000ff;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 3px
+}
+
+.input_field {
+    position: relative;
+    width: 100%;
+    margin-top: 20px
+}
+
+.input_field input {
+    height: 40px;
+    width: 100%;
+    padding: 0px 9px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    transition: all 0.5s
+}
+
+select {
+    height: 40px;
+    width: 100%;
+    padding: 0px 9px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    transition: all 0.5s
+}
+
+.input_field span {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    font-size: 15px;
+    pointer-events: none;
+    transition: all 0.5s;
+    background-color: #fff;
+    padding: 0px 7px
+}
+
+.input_field input:focus~span,
+.input_field input:valid~span {
+    top: -6px;
+    font-size: 12px
+}
+
+.form_body {
+    padding: 15px
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px
+}
+
+.final_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.final_content span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.final_content p {
+    text-align: center
+}
+
+.final .check i {
+    height: 60px;
+    width: 60px;
+    background-color: #6000ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size:3vw;
+}

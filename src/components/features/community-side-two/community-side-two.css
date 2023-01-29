@@ -1,0 +1,31 @@
+.CardAdvertising {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.advAmazon {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
+
+.CardAdvertisingTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewsList {
+  background-color: whitesmoke;
+  padding: 5%;
+  width: 100%;
+  height: 44vh;
+  border-radius: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.NewsList li{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}

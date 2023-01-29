@@ -1,0 +1,39 @@
+#w3review {
+  width: 100%;
+  height: 30vh;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.postCardImg2{
+    width: 13%;
+}
+.nextBtn{
+    width: 20% !important;
+    font-size: 1.4vh;
+}
+.postCard{
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 2%;
+}
+
+.postCardImg{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.TextPostCard{
+    border-bottom: 1px rgba(0, 0, 0, 0.13) solid;
+}
+
+.btnPostCard{
+    background:none ;
+    border: none;
+}
+
+.btnPostCard i{
+font-size: 3vh;
+}

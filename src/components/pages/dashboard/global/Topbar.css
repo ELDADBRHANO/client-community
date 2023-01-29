@@ -1,0 +1,13 @@
+.navLinks a{
+    color:#6000ff;
+    font-weight: bold;
+}
+
+.navLinks a:hover{
+    transition: 1s;
+    color:#fade2a;
+}
+
+.navMainLogo{
+    width: 35%;
+}

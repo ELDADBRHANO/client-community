@@ -1,0 +1,9 @@
+.logoSectionImg{
+    width: 50%;
+    filter: grayscale(50%);
+}
+
+.LogoSection{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}

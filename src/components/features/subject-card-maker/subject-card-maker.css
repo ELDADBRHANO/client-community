@@ -1,0 +1,23 @@
+.mainCard{
+  width: 100%;
+  background-color: white;
+}
+
+.CardCircleLogo {
+  width: 20vw;
+  height: 37vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display:flex;
+  flex-direction: column;
+}
+.CardCircleLogo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+  align-self: center;
+  margin-top: 5%;
+  color: Black;
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.gradient-custom {
+  background-color: #fade2a;
+  }
+  .carousel-indicators {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+  .ReviewSection{
+    margin-top: 7%;
+  }
+
+  .arrowIcon i{
+    color:black
+  }

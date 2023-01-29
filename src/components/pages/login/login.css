@@ -1,0 +1,26 @@
+
+@media  screen and (max-width: 600px) {
+    #loginImgId{
+        display: none !important;
+    }
+    /* #loginSmallScreen{
+        margin-top: 15% !important;
+    } */
+    #loginSmallScreen div{
+        padding-left: 0%;
+    }
+    #loginForm div{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    #loginForm button{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    #loginSmallScreen div img{
+        width: 75% !important;
+        margin-left: -20% !important;
+    }
+}

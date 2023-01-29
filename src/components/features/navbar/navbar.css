@@ -1,0 +1,20 @@
+.Mainlogo{
+  width: 15%;
+}
+
+#navbarScroll{
+  font-size: 2.5vh;
+}
+
+.btnLogin{
+    width: 100%;
+    height: 5vh;
+    background: none;
+    background-color: #6000ff;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    transition: 0.8s;
+    font-weight: bold;
+
+}

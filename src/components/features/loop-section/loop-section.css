@@ -1,0 +1,22 @@
+.mainLoopSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.LoopSectionImg {
+  width: 100%;
+}
+
+.LoopSectionOne {
+  text-align: center;
+  width: 50%;
+}
+
+.LoopSectionOne h1 {
+  font-weight: bold;
+}

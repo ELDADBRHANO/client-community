@@ -1,0 +1,44 @@
+
+
+.HeroSectionImg{
+    width: 45vw;
+    height: 60vh;
+}
+
+.HeadLineTitle{
+    text-align: center;
+    font-weight:bold;
+}
+
+.btnAllPage{
+    width: 35%;
+    height: 8vh;
+    background: none;
+    background-color: #6000ff;
+    color:white;
+    border: none;
+    border-radius: 50px;
+    transition: 0.8s;
+    font-weight: bold;
+}
+
+.btnAllPage:hover{
+    background-color: #fade2a;
+    color:black;
+}
+
+.btnAllPage2{
+    width: 35%;
+    height: 8vh;
+    background: none;
+    color:black;
+    border: 1px solid  black;
+    border-radius: 50px;
+    transition: 0.8s;
+    font-weight: bold;
+}
+
+.btnAllPage2:hover{
+    background-color: #fade2a;
+    color:black;
+}
