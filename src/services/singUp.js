@@ -1,4 +1,4 @@
-const USER_SING = 'https://community-server.onrender.com/users/create'
+const USER_SING = 'https://community-server.onrender.com/api/users/create'
 
 async function userSingUp(user) {
 

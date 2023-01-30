@@ -1,4 +1,4 @@
-const CONTACT_POST =' https://community-server.onrender.com/contact/contact'
+const CONTACT_POST =' https://community-server.onrender.com/api/contact/contact'
 async function contact(data) {
 console.log(data);
   await fetch(CONTACT_POST, {

@@ -1,4 +1,4 @@
-const LOG_IN = 'https://community-server.onrender.com/users/signIn'
+const LOG_IN = 'https://community-server.onrender.com/api/users/signIn'
 
 
 async function userLogin(user) {

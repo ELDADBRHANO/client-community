@@ -1,5 +1,5 @@
-const CREATE_POST = 'https://community-server.onrender.com/posts/create'
-const GET_POST = 'https://community-server.onrender.com/posts'
+const CREATE_POST = 'https://community-server.onrender.com/api/posts/create'
+const GET_POST = 'https://community-server.onrender.com/api/posts'
 
 async function createPost(user) {
 
