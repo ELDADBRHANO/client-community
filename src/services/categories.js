@@ -1,5 +1,5 @@
-const POST_CATEGORIES = 'http://localhost:8080/api/categories/create'
-const CATEGORIES_GET = 'http://localhost:8080/api/categories'
+const POST_CATEGORIES = 'https://community-server.onrender.com/categories/create'
+const CATEGORIES_GET = 'https://community-server.onrender.com/categories'
 
  export const getCategories = async () => {
     try {

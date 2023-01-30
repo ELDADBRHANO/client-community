@@ -1,5 +1,5 @@
-const getCommunitiesApi = 'http://localhost:8000/api/products/getProducts'
-const postCommunitiesApi = 'http://localhost:8000/api/products/getProducts'
+const getCommunitiesApi = 'https://community-server.onrender.com/products/getProducts'
+const postCommunitiesApi = 'https://community-server.onrender.com/products/getProducts'
 
 export const getCommunities = async () => {
 

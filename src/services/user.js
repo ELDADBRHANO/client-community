@@ -1,4 +1,4 @@
-const GET_USERS = 'http://localhost:8080/api/users/'
+const GET_USERS = 'https://community-server.onrender.com/users/'
 
 
 

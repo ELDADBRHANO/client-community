@@ -1,4 +1,4 @@
-const CONTACT_POST =' http://localhost:8080/api/contact/contact'
+const CONTACT_POST =' https://community-server.onrender.com/contact/contact'
 async function contact(data) {
 console.log(data);
   await fetch(CONTACT_POST, {

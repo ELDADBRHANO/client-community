@@ -1,5 +1,5 @@
-const EventsCreate = 'http://localhost:8000/api/users/userRegester'
-const EventsGet = 'http://localhost:8000/api/users/userRegester'
+const EventsCreate = 'https://community-server.onrender.com/userRegester'
+const EventsGet = 'https://community-server.onrender.com/userRegester'
 
 async function createEvents(data) {
 
