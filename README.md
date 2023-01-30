@@ -1,7 +1,7 @@
 # Communities.
 
 This project was created by me and by my partners to the hackathon.
-the issue we with given is the problem and complexities on mangaing a community.
+the issue we with given is the problem and complexities on managing a community.
 
 
  the project answers to difficulties that an community admin runs into his daily work.
